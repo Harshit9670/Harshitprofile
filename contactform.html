@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            margin-left: 400px;
+            margin-top: 100px;
+            border: 3px solid black;
+            border-radius: 18px;
+            height: 600px;
+            width: 400px;
+            color: rgb(44, 6, 77);
+            background-image: linear-gradient( silver,white);
+            background-color: silver;
+
+        }
+        h1{
+            font-size: 45px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <center>
+     <form action="mailto:tiwarih463@gmail.com" method="post"
+     enctype="text/plain">
+        <h1>Contacts</h1>
+    <div>
+   Name: <input type="text" name="Your name" placeholder="Full Name"></div><br>
+  <div> Address: <input type="text" name="my address" placeholder="Address"> </div><br>
+  <div> Phone no.: <input type="number" name="Your number"></div><br>
+   <div> Email: <input type="email" name="Your email"></div><br>
+   <label for="Your gender"></label>
+   <div> Gender: Male <input type="radio" name="Your gender"> Female <input type="radio" name="Your gender" ></div><br>
+<div> DOB:<input type="date" name="DOB" ></div><br>
+    <div> Project Name: <input type="text" name=" Project" > </div><br>
+   
+   <div>
+   Project Description: <br> <textarea name="Project Description"  cols="30" rows="10">   </textarea><br>
+   </div>
+<input type="submit" value="Submit"> </form></center>
+</body>
+</html>
